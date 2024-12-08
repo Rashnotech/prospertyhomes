@@ -1,4 +1,4 @@
-import Mailer from './Mailer.js'
+import Mailer from './mailer.js'
 
 export default class Contact {
     static async Sendmail (req, res) {
