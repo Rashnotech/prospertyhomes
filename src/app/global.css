@@ -1,0 +1,49 @@
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .animate-scroll {
+    animation: scroll 30s linear infinite;
+  }
+  
+/* Existing styles ... */
+
+/* Custom styles for Leaflet popups */
+.leaflet-popup-content-wrapper {
+  padding: 0;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.leaflet-popup-content {
+  margin: 0;
+  width: 250px !important;
+}
+
+.leaflet-popup-tip-container {
+  display: none;
+}
+
+.property-popup {
+  padding: 1rem;
+}
+
+.custom-icon {
+  background: none;
+  border: none;
+}
+
+.marker-label {
+  background-color: #3b82f6;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  white-space: nowrap;
+}
